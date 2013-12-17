@@ -7,31 +7,41 @@ Language Processing Group at National University of Singapore
 
 Author: Yiping Jin
 
+The system is based on Yiping's thesis and EMNLP paper. Please
+refer to:
+
+http://wing.comp.nus.edu.sg/downloads/term_definition_mining/
+
 DOCUMENTATION
 
 LICENSE
 
-//
-// This program is free software; you can redistribute it and/or
-// modify it under the terms of the GNU General Public License
-// as published by the Free Software Foundation; either version 2
-// of the License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program; if not, write to the Free Software
-// Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
-//
-// For more information, bug reports, fixes, contact:
-//    Yiping Jin
-//    Dept of Computer Science,
-//    National Univeristy of Singapore
-//    Singapore
-//
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+For more information, bug reports, fixes, contact:
+    Yiping Jin
+    Dept of Computer Science,
+    National Univeristy of Singapore
+    Singapore
+
+---------------------------------
+Notice
+---------------------------------
+The software is currently not available on GitHub.
+Please contact the author if you wish to obtain a 
+copy of the software for research use. 
 
 ---------------------------------
 Software Dependencies
@@ -71,24 +81,23 @@ Run the Program
 
 To run the program from command line:
 
-.DefMiner_clean [input file]
+  .DefMiner_clean [input file]
 
 To run from web CGI:
 
 go to directory 
 
-defminer/CGI/webapp/
+  defminer/CGI/webapp/
 
 run command:
 
-python simple_httpd.py
+  python simple_httpd.py
 
 then use the browser to open url:
 
-localhost:8080
+  localhost:8080
 
 ---------------------------------
 CHANGES
 ---------------------------------
 2013-12-17      1.0     Initial release
-
