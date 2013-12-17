@@ -50,10 +50,15 @@ Compilation
 Step 1: Compile CRF++
 Below are the steps from their website:
 (Note it may not work if you are not root user)
+
     - Go to CRF++-0.58/ sub-dirctory
+
     % ./configure 
+
     % make
+
     % su
+
     # make install
 
 This project is developed mainly in Python and Java.
