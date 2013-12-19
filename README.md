@@ -75,27 +75,36 @@ This project is developed mainly in Python and Java.
 The code is portable and does not require further 
 compilation.
 
+However, currently some of the parameters are hard 
+coded in the shell scripts, you have to modify the 
+script CGI/webapp/cgi-bin/defminer.cgi
+
+and change the line to indicate the path where
+defminer is installed in your machine:
+
+  my $baseDir = "/home/yiping/defminer-distribution/";
+
 ---------------------------------
 Run the Program
 ---------------------------------
 
 To run the program from command line:
 
-  .DefMiner_clean [input file]
+.DefMiner_clean [input file]
 
 To run from web CGI:
 
 go to directory 
 
-  defminer/CGI/webapp/
+defminer/CGI/webapp/
 
 run command:
 
-  python simple_httpd.py
+python simple_httpd.py
 
 then use the browser to open url:
 
-  localhost:8080
+localhost:8080
 
 ---------------------------------
 CHANGES
