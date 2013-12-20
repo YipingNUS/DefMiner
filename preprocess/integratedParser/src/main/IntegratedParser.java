@@ -85,7 +85,7 @@ public class IntegratedParser {
 		// creates a StanfordCoreNLP object, with POS tagging, lemmatization,
 		// NER, parsing, and coreference resolution
 		Properties props = new Properties();
-		props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse");
+		props.put("annotators", "tokenize, ssplit, pos, lemma, regexner, parse");
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 		// create an empty Annotation just with the given text
