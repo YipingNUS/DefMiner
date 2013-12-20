@@ -1,0 +1,221 @@
+digraph  {
+  N_1 [label="Run-NNP-0:1"];
+  N_2 [label="instruction-NN-0:2"];
+  N_3 [label="1-CD-0:3"];
+  N_1 -> N_2 [label="dep"];
+  N_2 -> N_3 [label="num"];
+}
+
+digraph  {
+  N_5 [label="the-DT-1:5"];
+  N_6 [label="external-JJ-1:6"];
+  N_3 [label="right-NN-1:3"];
+  N_10 [label="x-NN-1:10"];
+  N_7 [label="jars-NNS-1:7"];
+  N_8 [label="chmod-NN-1:8"];
+  N_13 [label="\*-SYM-1:13"];
+  N_14 [label="1-LS-1:14"];
+  N_11 [label="lib-NN-1:11"];
+  N_12 [label="\/-:-1:12"];
+  N_2 [label="execution-NN-1:2"];
+  N_1 [label="Add-VB-1:1"];
+  N_3 -> N_2 [label="nn"];
+  N_8 -> N_5 [label="det"];
+  N_8 -> N_6 [label="amod"];
+  N_8 -> N_7 [label="nn"];
+  N_8 -> N_11 [label="conj_+"];
+  N_14 -> N_13 [label="dep"];
+  N_14 -> N_12 [label="punct"];
+  N_14 -> N_1 [label="dep"];
+  N_11 -> N_10 [label="nn"];
+  N_1 -> N_3 [label="dobj"];
+  N_1 -> N_8 [label="prep_to"];
+  N_1 -> N_11 [label="prep_to"];
+}
+
+digraph  {
+  N_1 [label="run-VB-2:1"];
+  N_4 [label="program-NN-2:4"];
+  N_3 [label="main-JJ-2:3"];
+  N_2 [label="the-DT-2:2"];
+  N_1 -> N_4 [label="dobj"];
+  N_4 -> N_3 [label="amod"];
+  N_4 -> N_2 [label="det"];
+}
+
+digraph  {
+  N_6 [label="is-VBZ-3:6"];
+  N_5 [label="which-WDT-3:5"];
+  N_8 [label="input-NN-3:8"];
+  N_7 [label="the-DT-3:7"];
+  N_2 [label="takes-VBZ-3:2"];
+  N_1 [label="It-PRP-3:1"];
+  N_4 [label="argument-NN-3:4"];
+  N_3 [label="one-CD-3:3"];
+  N_15 [label="lib-NN-3:15"];
+  N_16 [label="\/-:-3:16"];
+  N_13 [label="bin-NN-3:13"];
+  N_12 [label="cp-NN-3:12"];
+  N_9 [label="file-NN-3:9"];
+  N_10 [label="java-NN-3:10"];
+  N_23 [label="create-VB-3:23"];
+  N_24 [label="a-DT-3:24"];
+  N_21 [label="program-NN-3:21"];
+  N_22 [label="will-MD-3:22"];
+  N_19 [label="test.txt-NN-3:19"];
+  N_20 [label="The-DT-3:20"];
+  N_17 [label="\*-SYM-3:17"];
+  N_18 [label="main.IntegratedParser-NN-3:18"];
+  N_32 [label="all-PDT-3:32"];
+  N_31 [label="contains-VBZ-3:31"];
+  N_29 [label="name-NN-3:29"];
+  N_28 [label="same-JJ-3:28"];
+  N_27 [label="the-DT-3:27"];
+  N_25 [label="folder-NN-3:25"];
+  N_38 [label="preprocessing-NN-3:38"];
+  N_37 [label="the-DT-3:37"];
+  N_36 [label="all-PDT-3:36"];
+  N_34 [label="outcome-NN-3:34"];
+  N_33 [label="the-DT-3:33"];
+  N_2 -> N_31 [label="parataxis"];
+  N_2 -> N_23 [label="parataxis"];
+  N_2 -> N_1 [label="nsubj"];
+  N_2 -> N_4 [label="dobj"];
+  N_4 -> N_10 [label="rcmod"];
+  N_4 -> N_3 [label="num"];
+  N_13 -> N_15 [label="dep"];
+  N_12 -> N_16 [label="punct"];
+  N_12 -> N_13 [label="dep"];
+  N_12 -> N_19 [label="dep"];
+  N_10 -> N_9 [label="nn"];
+  N_10 -> N_6 [label="cop"];
+  N_10 -> N_5 [label="nsubj"];
+  N_10 -> N_8 [label="nn"];
+  N_10 -> N_7 [label="det"];
+  N_23 -> N_31 [label="conj_and"];
+  N_23 -> N_29 [label="prep_with"];
+  N_23 -> N_12 [label="dep"];
+  N_23 -> N_25 [label="dobj"];
+  N_23 -> N_21 [label="nsubj"];
+  N_23 -> N_22 [label="aux"];
+  N_21 -> N_20 [label="det"];
+  N_19 -> N_17 [label="dep"];
+  N_19 -> N_18 [label="nn"];
+  N_31 -> N_21 [label="nsubj"];
+  N_31 -> N_34 [label="dobj"];
+  N_29 -> N_28 [label="amod"];
+  N_29 -> N_27 [label="det"];
+  N_25 -> N_24 [label="det"];
+  N_38 -> N_37 [label="det"];
+  N_38 -> N_36 [label="predet"];
+  N_34 -> N_32 [label="predet"];
+  N_34 -> N_38 [label="prep_of"];
+  N_34 -> N_33 [label="det"];
+}
+
+digraph  {
+  N_3 [label="the-DT-4:3"];
+  N_2 [label="all-PDT-4:2"];
+  N_11 [label="line-NN-4:11"];
+  N_9 [label="sentence-NN-4:9"];
+  N_8 [label="one-CD-4:8"];
+  N_7 [label="output-NN-4:7"];
+  N_6 [label="we-PRP-4:6"];
+  N_4 [label="files-NNS-4:4"];
+  N_9 -> N_8 [label="num"];
+  N_9 -> N_7 [label="nn"];
+  N_6 -> N_11 [label="prep_per"];
+  N_6 -> N_9 [label="dep"];
+  N_6 -> N_4 [label="prep_in"];
+  N_4 -> N_3 [label="det"];
+  N_4 -> N_2 [label="predet"];
+}
+
+digraph  {
+  N_25 [label="dependency-NN-5:25"];
+  N_24 [label="one-CD-5:24"];
+  N_27 [label="line-NN-5:27"];
+  N_18 [label="test.dep-JJ-5:18"];
+  N_16 [label="|-NN-5:16"];
+  N_15 [label="word-NN-5:15"];
+  N_22 [label="sentence-NN-5:22"];
+  N_21 [label="each-DT-5:21"];
+  N_19 [label="dependencies-NNS-5:19"];
+  N_7 [label="word-NN-5:7"];
+  N_8 [label="|-NN-5:8"];
+  N_10 [label="test.pos-NNS-5:10"];
+  N_11 [label="pos-NNS-5:11"];
+  N_12 [label="tags-NNS-5:12"];
+  N_14 [label="each-DT-5:14"];
+  N_1 [label="test-NN-5:1"];
+  N_2 [label="\/-:-5:2"];
+  N_3 [label="|-CD-5:3"];
+  N_5 [label="test.word-JJ-5:5"];
+  N_6 [label="orignial-JJ-5:6"];
+  N_25 -> N_24 [label="num"];
+  N_16 -> N_14 [label="det"];
+  N_16 -> N_15 [label="nn"];
+  N_22 -> N_25 [label="appos"];
+  N_22 -> N_21 [label="det"];
+  N_19 -> N_18 [label="amod"];
+  N_8 -> N_7 [label="nn"];
+  N_8 -> N_10 [label="dep"];
+  N_8 -> N_5 [label="amod"];
+  N_8 -> N_6 [label="amod"];
+  N_10 -> N_12 [label="dep"];
+  N_12 -> N_11 [label="nn"];
+  N_12 -> N_16 [label="prep_for"];
+  N_1 -> N_2 [label="punct"];
+  N_1 -> N_3 [label="dep"];
+  N_3 -> N_8 [label="dep"];
+  N_3 -> N_27 [label="prep_per"];
+  N_3 -> N_22 [label="prep_for"];
+  N_3 -> N_19 [label="dep"];
+}
+
+digraph  {
+  N_27 [label="sentence-NN-6:27"];
+  N_1 [label="Sentences-NNS-6:1"];
+  N_26 [label="each-DT-6:26"];
+  N_23 [label="parsing-NN-6:23"];
+  N_22 [label="shallow-JJ-6:22"];
+  N_24 [label="sequence-NN-6:24"];
+  N_19 [label="test.seq-VB-6:19"];
+  N_21 [label="collapsed-JJ-6:21"];
+  N_20 [label="the-DT-6:20"];
+  N_12 [label="parsing-NN-6:12"];
+  N_13 [label="tag-NN-6:13"];
+  N_10 [label="the-DT-6:10"];
+  N_11 [label="shallow-JJ-6:11"];
+  N_16 [label="word-NN-6:16"];
+  N_17 [label="|-NN-6:17"];
+  N_15 [label="each-DT-6:15"];
+  N_5 [label="empty-JJ-6:5"];
+  N_2 [label="are-VBP-6:2"];
+  N_3 [label="separated-VBN-6:3"];
+  N_9 [label="test.chunk-VBP-6:9"];
+  N_6 [label="line-NN-6:6"];
+  N_7 [label="|-NN-6:7"];
+  N_27 -> N_26 [label="det"];
+  N_24 -> N_27 [label="prep_for"];
+  N_24 -> N_23 [label="nn"];
+  N_24 -> N_22 [label="amod"];
+  N_24 -> N_21 [label="amod"];
+  N_24 -> N_20 [label="det"];
+  N_19 -> N_24 [label="dobj"];
+  N_13 -> N_12 [label="nn"];
+  N_13 -> N_10 [label="det"];
+  N_13 -> N_11 [label="amod"];
+  N_13 -> N_17 [label="prep_for"];
+  N_17 -> N_16 [label="nn"];
+  N_17 -> N_15 [label="det"];
+  N_3 -> N_1 [label="nsubjpass"];
+  N_3 -> N_2 [label="auxpass"];
+  N_3 -> N_19 [label="dep"];
+  N_3 -> N_9 [label="parataxis"];
+  N_3 -> N_7 [label="agent"];
+  N_9 -> N_13 [label="dobj"];
+  N_7 -> N_5 [label="amod"];
+  N_7 -> N_6 [label="nn"];
+}
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WING &#187; DefMiner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Automatic Definition Extraction System (DefMiner)">
+    <meta name="author" content="Yiping JIN">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+<!-- Navbar ================================================== -->
+<div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+      </a>
+      <a class="brand active" href="index.html">DefMiner</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a target="_blank" href="http://wing.comp.nus.edu.sg"><i class="icon-share-alt icon-white"></i> WING Home Page</a></li>
+            <li><a target="_blank" href="http://wing.comp.nus.edu.sg/portal/web-services.html"><i class="icon-share-alt icon-white"></i> WING Web Services</a></li>
+	  </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+        <div class="span3 bs-docs-sidebar">
+	  <ul class="nav nav-list bs-docs-sidenav well" data-spy="affix">
+            <li><a href="#dl"><i class="icon-chevron-right"></i>Download</a></li>
+            <li><a href="#d"><i class="icon-chevron-right"></i>Web Demo</a></li>
+            <li><a href="#p"><i class="icon-chevron-right"></i>Publications</a></li>
+            <li><a href="#gm"><i class="icon-chevron-right"></i>Group Members</a></li>
+                      </ul>
+        </div><!-- /span -->
+
+        <div class="span9">
+          <div class="hero-unit">
+	    <img src="bear.png"/ width="150px" alt="Picture of Raz"/ style="float:left; padding:15px;">
+            <h2>Automatic Definition Extraction System (DefMiner)</h2>
+	    <small>This is the home page for the DefMiner
+            project, a project of NUS WING group. This 
+            work follows Yiping's thesis to extract parts 
+            of definitions from scholarly articles.</small>
+
+          </div><!--/head-unit-->
+
+          <div class="row">
+
+	    <P>This work is licensed under <A
+	    HREF="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative
+	    Commons Attribution-ShareAlike 3.0 Unported
+	    License</A>. See LICENSE.txt in the distribution for
+	    details. For alternative licenses, please contact the
+	    authors.</p>
+
+            <section id="d">
+	    <h2>Download</h2>
+
+	    <P>You can download the entire distribution on
+	    <A HREF="http://www.github.com/WING-NUS/RAZ">GitHub</A>.
+	    </P>
+
+  	    <P>You can also download the corpora used in Yiping's thesis
+            <a href="http://wing.comp.nus.edu.sg/downloads/term_definition_mining/">here</a>.</P>
+	    </section>
+
+	    <section id="d">	    
+            <h2>Web Demonstration</h2>
+
+	    <FORM ENCTYPE="multipart/form-data" METHOD="POST" ACTION="cgi-bin/defminer.cgi">
+	    <table width="100%" border>
+	    <tr><td width="80%">
+	    <INPUT TYPE="password" SIZE="4" NAME="key" placeholder="Internal key (if applicable)"/>
+
+	    <P><BR/> <textarea rows="4" cols="65" name="text"
+	    placeholder="Cut and paste a plain text or .annot file to be zoned"></textarea>
+
+	    <P>Or upload a .txt to have it annotated.  Such as
+	    (right click on the link to save it locally) <A
+	    HREF="http://wing.comp.nus.edu.sg/~forecite/samples/9405001.txt">9405001.txt</A>.
+
+	    <INPUT TYPE="FILE" NAME="datafile">
+	    </TD>
+	    </TR>
+	    <TR>
+	    <TD COLSPAN="2">
+	    <CENTER>
+	    <INPUT TYPE="SUBMIT" VALUE="Parse!">
+	    </CENTER>
+	    </TD>
+	    </TABLE>
+	    </FORM>
+	    </section>
+
+	    <section id="p">
+            <h2>Publications</h2>
+	<br>
+        <P>If you'd like to cite the use of this tool or its scientific contribution, please cite:</P>
+
+	<table>
+	<tbody><tr>
+	<td width="20"> </td>
+	<td>
+	Yiping Jin, Min-Yen Kan, Jun-Ping Ng & Xiangnan He. <font color="#d00000"><a href="http://wing.comp.nus.edu.sg/publications/2013/emnlp2013_yp.pdf">Mining Scientific Terms and their Definitions: A Study of the ACL Anthology</a></font>. Proc. of EMNLP 2013, Seattle, USA.
+	</td>
+	</tr>
+	</tbody></table>
+
+	<br>
+	<a name="ref2"><sup>2</sup></a> For more detailed description of the sysystem, please refer to the following thesis paper:<br><br>
+
+	<table>
+	<tbody><tr>
+	<td width="20"> </td>
+	<td>
+	Yiping Jin. <font color="#d00000"><a href="http://wing.comp.nus.edu.sg/publications/theses/2013/yipingJinThesis.pdf">Mining Definition of Term in Scientific Articles</a></font>. National University of Singapore.
+	</td>
+	</tr>
+	</tbody></table>
+	    </section>
+
+	    <section id="gm">
+            <h2>Group Members</h2>
+<UL>
+  <LI> <A HREF="http://www.comp.nus.edu.sg/~yiping/">Yiping Jin</A> - Previous honor's year student, NUS<BR/>
+  <LI> <A HREF="http://www.comp.nus.edu.sg/~kanmy">Min-Yen Kan</A> - Supervisor, NUS<BR/>
+</UL>
+
+	    </section>
+
+
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>Built with Twitter Bootstrap.  Web Information Retrieval / Natural Language Processing Group at the National University of Singapore.</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

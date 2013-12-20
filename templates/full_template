@@ -1,0 +1,193 @@
+# Unigram
+# columns: word | postag | stemmed lexical | affix | in term dictionary | 
+# in definition dictionary | capitalized | all caps | mixed case | 
+# captilized character with period (H.) | ends in digit | contains hyphen |
+# len of word | chunktag
+
+#words
+U00:%x[-2,0]
+U01:%x[-1,0]
+U02:%x[0,0]
+U03:%x[1,0]
+U04:%x[2,0]
+U05:%x[-1,0]/%x[0,0]
+U06:%x[0,0]/%x[1,0]
+
+#postag
+U10:%x[-2,1]
+U11:%x[-1,1]
+U12:%x[0,1]
+U13:%x[1,1]
+U14:%x[2,1]
+U15:%x[-2,1]/%x[-1,1]
+U16:%x[-1,1]/%x[0,1]
+U17:%x[0,1]/%x[1,1]
+U18:%x[1,1]/%x[2,1]
+
+U20:%x[-2,1]/%x[-1,1]/%x[0,1]
+U21:%x[-1,1]/%x[0,1]/%x[1,1]
+U22:%x[0,1]/%x[1,1]/%x[2,1]
+
+#stemmed lexical
+U30:%x[-1,2]
+U31:%x[0,2]
+U32:%x[1,2]
+
+#suffix
+U40:%x[-1,3]
+U41:%x[0,3]
+U42:%x[1,3]
+
+#capitalized
+U50:%x[-1,4]
+U51:%x[0,4]
+U52:%x[1,4]
+
+#all capitalized
+U60:%x[-1,5]
+U61:%x[0,5]
+U62:%x[1,5]
+
+#mixed case
+U70:%x[-1,6]
+U71:%x[0,6]
+U72:%x[1,6]
+
+#captilized letter with period
+U80:%x[-1,7]
+U81:%x[0,7]
+U82:%x[1,7]
+
+#with digit
+U90:%x[-1,8]
+U91:%x[0,8]
+U92:%x[1,8]
+
+#contains hypen
+U90:%x[-1,9]
+U91:%x[0,9]
+U92:%x[1,9]
+
+#number of characters
+U100:%x[0,10]
+
+#sentence length
+U110:%x[0,11]
+
+#first word
+U120:%x[0,12]
+
+#shallow parse tag
+U130:%x[-2,13]
+U131:%x[-1,13]
+U132:%x[-0,13]
+U133:%x[1,13]
+U134:%x[2,13]
+U135:%x[-2,13]/%x[-1,13]
+U136:%x[-1,13]/%x[0,13]
+U137:%x[0,13]/%x[1,13]
+U138:%x[1,13]/%x[2,13]
+
+#word position
+U140:%x[0,14]
+
+#section info (position features)
+#U150:%x[0,15]
+#U151:%x[0,16]
+#U152:%x[0,17]
+#U153:%x[0,18]
+
+#surface pattern type
+U160:%x[0,19]
+#surface pattern index
+U161:%x[0,20]
+
+#has pronoun
+U170:%x[0,21]
+
+##############################################
+## below are shallow parsing sequence features
+
+#sentence starts with NP
+U180:%x[0,22]
+#sentence starts with ADVP
+U181:%x[0,23]
+#sentence starts with PP NP
+U182:%x[0,24]
+#sentence starts with DT NP
+U183:%x[0,25]
+#sentence contains NP : NP
+U184:%x[0,26]
+#sentence contains NP is
+U185:%x[0,27]
+#sentence contains NP is NP
+U186:%x[0,28]
+#sentence contains refer to NP
+U187:%x[0,29]
+#sentence contains NP IS NP PP
+U188:%x[0,30]
+#sentence contains NP or NP 
+U189:%x[0,31]
+#sentence contains known as NP 
+U190:%x[0,32]
+#sentence contains NP of NP 
+U191:%x[0,33]
+#sentence contains NP ( NP ) 
+U192:%x[0,34]
+#sentence contains NP the/a NP 
+U193:%x[0,35]
+#sentence contains NP consist NP
+U194:%x[0,36]
+#sentence contains NP defined by NP
+U195:%x[0,37]
+
+#has i.e.
+U200:%x[0,38]
+
+#in wcl ngrams
+U210:%x[0,39]
+U211:%x[0,40]
+U212:%x[0,41]
+U213:%x[0,42]
+U214:%x[0,43]
+
+#in first 10 words
+U220:%x[0,44]
+
+#is part of NP
+U230:%x[0,45]
+
+#is part of first NP
+U240:%x[0,46]
+
+#named entity tag
+U250:%x[-1,47]
+U251:%x[0,47]
+U252:%x[1,47]
+
+#root word of the current word
+#U260:%x[0,48]
+
+##############################
+### surface patterns
+U261:%x[0,49]
+U262:%x[0,50]
+U263:%x[0,51]
+U264:%x[0,52]
+U265:%x[0,53]
+U266:%x[0,54]
+U267:%x[0,55]
+U268:%x[0,56]
+U269:%x[0,57]
+U270:%x[0,58]
+U271:%x[0,59]
+
+#dependency parent
+U280:%x[0,60]
+#parent dependency relationship
+U281:%x[0,61]
+#dependency path to root word
+U282:%x[0,62]
+
+# Bigram
+B

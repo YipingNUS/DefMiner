@@ -1,0 +1,86 @@
+package main;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+import opennlp.tools.chunker.ChunkerME;
+import opennlp.tools.chunker.ChunkerModel;
+import opennlp.tools.util.InvalidFormatException;
+
+/**a Shallow Parser based on opennlp
+ * @author Yiping Jin
+ * National University of Singapore
+ */
+
+public class ShallowParser {
+	
+	private static ShallowParser instance = null;
+	private static ChunkerModel cModel ;
+	
+	private static String stopwords;
+	//Singleton pattern
+	public static ShallowParser getInstance() throws InvalidFormatException, IOException{
+		if(ShallowParser.instance == null){
+			InputStream is = new FileInputStream("en-chunker.bin");
+			ChunkerModel cModel = new ChunkerModel(is);
+			ShallowParser.instance = new ShallowParser(cModel);
+		}
+		return ShallowParser.instance;
+	}
+	
+	public ShallowParser(ChunkerModel cModel){
+		ShallowParser.cModel = cModel;
+		
+	}
+	
+	 /** A shallow Parser, chunk a sentence and return an array of chunk tags
+	 * @param words The array contains all the words
+	 * @param postags The array contains the pos tags for each word
+	 * @return  String[]
+	 */
+	 public String[] chunk(String[] words, String[] postags) throws IOException { 	
+	 
+			// chunker
+			ChunkerME chunkerME = new ChunkerME(cModel);
+			String result[] = chunkerME.chunk(words, postags);
+			return result;
+		}
+	 
+	 /** generate the collapsed shallow parsing sequence of the sentence
+	 * @param input The input sentence
+	 * @param model The POSModel of the chunk
+	 * @param cModel The ChunkerModel of the chunk
+	 * @return  HashMap<Integer,String>
+	 */
+	 public String chunk_sequence (String[] result) throws IOException { 	
+	 
+			 File input_file = new File("english");
+			 try {
+			     Scanner scanner = new Scanner(input_file);	
+			     while (scanner.hasNextLine()) {
+			            String line = scanner.nextLine();
+			            stop_word +=line + " ";
+			     }
+			 }catch (FileNotFoundException e) {
+			        e.printStackTrace();
+			    }
+			 
+			String current = "out";
+			StringBuilder sequence = new StringBuilder("");	
+			
+			//generate shallow parsing sequence
+			for (String phLable : result){
+				if(phLable.equals("O")) phLable += "-Punctuation"; //The phLable of the last word is OP
+				if(!current.equals(phLable.split("-")[1])){
+					current = phLable.split("-")[1];
+					if(!phLable.contains("-Punctuation")){
+						sequence.append(phLable.split("-")[1]);
+						sequence.append(" ");
+					}
+				}
+			}
+			return sequence.toString();
+		}
+	     
+}

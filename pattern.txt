@@ -1,0 +1,11 @@
+<1> <term> defined (as|by) <definition>
+<1> define(s)? <term> as <definition>
+<1> definition of <term> <definition>
+<1> <term> a measure of <definition>
+<1> <term> is (a|the) <definition> (that|which|where|if)
+<1> <term> comprise(s)? <definition>
+<1> <term> consist(s)? of <definition>
+<1> <term> denote(s)? <definition>
+<1> <term> designate(s)? <definition>
+<2> <definition> (is|are|also) called <term>
+<2> <definition> (is|are|also) known as <term>

@@ -1,0 +1,100 @@
+det nn nsubj aux rOOT aBSENT prep_to aBSENT prep_to aBSENT prep_in aBSENT aBSENT aBSENT det amod prep_to aBSENT prep_of aBSENT det amod prep_of aBSENT prep_of aBSENT aBSENT prep_of aBSENT 
+nsubj cop amod rOOT aBSENT nsubj aux aux cop amod nn prepc_for aBSENT det prep_in aBSENT prep_in aBSENT 
+det nsubj cop det nn rOOT aBSENT amod prep_with aBSENT det amod prep_over aBSENT 
+amod nn nsubj rOOT det nn dobj aBSENT amod prep_for aBSENT 
+nsubjpass aBSENT prep_of auxpass rOOT aBSENT prep_as aBSENT 
+nn nsubj aBSENT advmod partmod aBSENT prep_as aBSENT cop det nn nn amod nn rOOT nsubj rcmod nsubj dep dobj aBSENT aBSENT prep_with aBSENT nn aBSENT prep_in aBSENT 
+aBSENT prep_in aBSENT det nsubj cop det rOOT aBSENT det amod prep_within aBSENT 
+det nsubj cop nn poss aBSENT amod nn rOOT nn nn dep aBSENT auxpass conj_and aBSENT prep_in num aBSENT 
+nsubj aux advmod ccomp dep aBSENT dep aBSENT det nsubj advmod rOOT aBSENT det amod prep_from aBSENT 
+amod nn nn nn nsubj ccomp dobj aBSENT prep_of aBSENT amod aBSENT prep_of appos aBSENT aBSENT mark nsubj advcl aux xcomp dobj aBSENT aux xcomp dobj aBSENT nsubj rOOT aux xcomp nsubj ccomp aBSENT aBSENT det prep_out_of aBSENT aBSENT amod nn nn nn nsubj ccomp dobj aBSENT prep_of aBSENT amod aBSENT prep_of appos aBSENT aBSENT mark nsubj advcl aux xcomp dobj aBSENT aux xcomp dobj aBSENT nsubj rOOT aux xcomp nsubj ccomp aBSENT aBSENT det prep_out_of aBSENT aBSENT aBSENT det prep_as aBSENT nn nsubj rOOT det dobj aBSENT prep_to aBSENT det prep_of aBSENT det num amod prep_in xcomp nsubj neg aux xcomp det poss aBSENT dobj det dep aBSENT aBSENT aux conj_and dobj aBSENT prep_in partmod dobj aBSENT det prep_from aBSENT 
+det nsubj aBSENT dep dep aBSENT dep aBSENT cop det rOOT partmod aux xcomp aBSENT xcomp dobj aBSENT cc aBSENT dep aBSENT aBSENT aux xcomp aBSENT aBSENT det prep_under aBSENT prep_of aBSENT 
+det amod nsubjpass nsubj rcmod det dobj auxpass rOOT det dobj aBSENT prep_of aBSENT 
+mark det nsubj aBSENT prep_of aBSENT det poss aBSENT prep_in cop advmod advcl aBSENT det prep_than aBSENT amod prep_of aBSENT det num prep_in aBSENT nsubj aux rOOT dobj aBSENT aBSENT det nn nn prep_such_as aBSENT appos aBSENT aux xcomp det amod dobj aBSENT prep_to rcmod acomp aBSENT 
+nsubjpass auxpass rOOT aux aux xcomp poss dobj aBSENT prepc_in dobj advmod nsubj cop advmod rcmod aBSENT 
+det nsubj aBSENT prep_of rOOT aBSENT det prep_on aBSENT advmod aBSENT mark nsubj aBSENT poss amod prep_of advcl aBSENT amod prep_into aBSENT 
+det nsubj cop det nn rOOT aBSENT det prep_of aBSENT 
+det nsubj cop det amod amod rOOT aBSENT advmod det appos aBSENT aBSENT det nn prep_of aBSENT 
+det nsubj aBSENT aBSENT dep aBSENT dep aBSENT cop det amod conj_and aBSENT amod nn conj_or aBSENT aBSENT det amod prep_after aBSENT aBSENT prep_before aBSENT 
+aBSENT nn prep_in aBSENT det nn aBSENT conj_or nsubj cop det rOOT nsubj rcmod num aBSENT conj_or dobj partmod aBSENT agent aBSENT rcmod dobj aBSENT det amod amod prep_into aBSENT 
+advmod nsubjpass auxpass rOOT aux cop det xcomp aBSENT prepc_for amod nn nsubj ccomp nn nn dobj aBSENT aBSENT det amod prep_in dobj nsubj advmod aBSENT nsubj cop det rcmod aBSENT amod nn prep_for aBSENT 
+nsubj rOOT aBSENT det prep_from aBSENT aux rcmod det dobj aBSENT det amod dobj aBSENT aBSENT det amod dobj aBSENT aBSENT nsubj rOOT aBSENT det prep_from aBSENT aux rcmod det dobj aBSENT det amod dobj aBSENT aBSENT det amod dobj aBSENT aBSENT amod poss aBSENT nsubjpass aux auxpass rOOT aBSENT det nn prep_in aBSENT xcomp det dobj aBSENT aBSENT aBSENT det amod dobj aux xcomp poss dobj aBSENT prep_of partmod dobj aBSENT amod aBSENT amod dobj prep pcomp aBSENT 
+aBSENT det amod amod poss aBSENT prep_in aBSENT amod nn nsubj aBSENT det prep_on rOOT det pobj prep pcomp xcomp det amod aBSENT conj_or dobj aBSENT det prep_in aBSENT 
+det nsubj aBSENT conj_or cop det amod rOOT aBSENT prep_of aBSENT appos aBSENT aBSENT advmod partmod aBSENT det amod prep_in aBSENT det prep_to aBSENT prep_of aBSENT det dobj aBSENT poss num prep_of aBSENT agent aBSENT nsubjpass auxpass advmod advmod dep aBSENT aBSENT det prep_as_of aBSENT prep_of aBSENT prep_with aBSENT aBSENT 
+advmod advcl aBSENT det nn nsubj aux neg rOOT aBSENT det amod prep_to aBSENT aBSENT advmod conj_but ccomp det dobj aBSENT det prep_on aBSENT 
+det nsubj aBSENT nn appos aBSENT aBSENT aBSENT dep dobj aBSENT aBSENT cop det rOOT aBSENT partmod aBSENT amod dobj amod aBSENT prep_to aBSENT 
+det nsubj aBSENT dep aBSENT det nn nn prep_from aBSENT aBSENT xcomp dobj aBSENT cop det rOOT aBSENT nn aBSENT conj_or prep_of amod prep prep num dep aBSENT number dep num dep aBSENT aBSENT num dep aBSENT number dep num dep aBSENT aBSENT aBSENT prepc_depending_on pobj aBSENT 
+aBSENT prep_in aBSENT det nsubjpass aBSENT dep aBSENT aBSENT auxpass rOOT aux cop det amod xcomp aBSENT nsubj cop rcmod aBSENT det prep_of aBSENT amod prep_of aBSENT nsubj rcmod aBSENT prep_into aBSENT det amod aBSENT conj_or prep_in aBSENT 
+nsubj rOOT aBSENT det nn prep_on aBSENT 
+det nsubj cop det amod nn nn rOOT partmod det nn nn dobj aBSENT 
+det nsubj aBSENT prep aBSENT pobj aBSENT aBSENT aBSENT nn pobj aBSENT aBSENT cop det rOOT aBSENT aBSENT dep aBSENT aBSENT dep dep aBSENT nsubj rcmod aBSENT rcmod det dobj aBSENT prep_of aBSENT 
+amod nsubjpass auxpass rOOT aBSENT nn prep_for aBSENT prep_in aBSENT det prep_in aBSENT 
+nsubj cop det amod nn rOOT aBSENT quantmod prep_including aBSENT amod nn prep_of aBSENT det nn prep_of aBSENT aBSENT prep_including aBSENT amod prep_of aBSENT det amod amod dep aBSENT prep_of aBSENT det amod dep aBSENT det prep_of aBSENT prep_of aBSENT aBSENT 
+aBSENT amod prep_in aBSENT nsubj cop det rOOT aBSENT prep_of aBSENT prep_of aBSENT aBSENT det amod conj_and aBSENT prep_of aBSENT 
+aBSENT nsubj prep dep aBSENT aBSENT nsubj aBSENT det advmod aBSENT prep_behind prep_according mark dep aBSENT appos det tmod aBSENT conj_and tmod aBSENT det prep_in aBSENT nn prep_of aBSENT amod prep_of aBSENT aux rOOT aux xcomp det dobj aBSENT prepc_by dobj aBSENT det prep_to advmod nsubj aux advcl aBSENT prep_with aBSENT prep_with aBSENT advmod amod prep_on aBSENT aBSENT aBSENT nsubj prep dep aBSENT aBSENT nsubj aBSENT det advmod aBSENT prep_behind prep_according mark dep aBSENT appos det tmod aBSENT conj_and tmod aBSENT det prep_in aBSENT nn prep_of aBSENT amod prep_of aBSENT aux rOOT aux xcomp det dobj aBSENT prepc_by dobj aBSENT det prep_to advmod nsubj aux advcl aBSENT prep_with aBSENT prep_with aBSENT advmod amod prep_on aBSENT aBSENT nsubj rOOT aBSENT det amod amod prep_to aBSENT det amod poss aBSENT prep_of aBSENT prep_of aux xcomp aBSENT det amod prep_with aBSENT advmod amod prep_of nsubj rcmod det dobj aBSENT det amod prep_of aBSENT 
+nsubj cop det rOOT aBSENT prep_of aBSENT poss prep_of aBSENT aBSENT aBSENT aBSENT prep_of aBSENT conj_and aBSENT 
+det nsubj aBSENT aBSENT det prep_from aBSENT aBSENT aBSENT dep aBSENT prep_from aBSENT conj_and aBSENT conj_and aBSENT aBSENT conj_and aBSENT cop det rOOT aBSENT det prep_of nsubj cop det rcmod aBSENT prep_of aBSENT 
+nsubj rOOT mark poss amod nsubj cop det nn ccomp aBSENT nn prep_of aBSENT prep_of aBSENT 
+aBSENT prep_in aBSENT det nsubj cop det rOOT partmod aux xcomp det dobj aBSENT det prep_of aBSENT det prep_with aBSENT det amod dep aBSENT det dep aBSENT aBSENT 
+nn aBSENT rOOT dep amod dep aBSENT nn aBSENT rOOT dep amod dep aBSENT aBSENT aBSENT aBSENT nn aBSENT rOOT dep amod dep aBSENT aBSENT aBSENT aBSENT nsubjpass dep aBSENT auxpass advmod rOOT aBSENT det prep_in nsubj rcmod dobj partmod aBSENT prep_in aBSENT det amod nn nn agent aBSENT partmod aBSENT nn prep_as aBSENT aBSENT nn aBSENT rOOT dep amod dep aBSENT aBSENT aBSENT aBSENT nsubjpass dep aBSENT auxpass advmod rOOT aBSENT det prep_in nsubj rcmod dobj partmod aBSENT prep_in aBSENT det amod nn nn agent aBSENT partmod aBSENT nn prep_as aBSENT aBSENT cop det advmod amod aBSENT amod csubj rOOT aBSENT nn nsubj aBSENT det prep_in prepc_in aBSENT det amod prep_of aBSENT prep_of aBSENT amod amod prep_of aBSENT aBSENT amod amod prep_of aBSENT 
+poss aBSENT conj_and aBSENT nn nn nsubj rOOT mark det nn nsubj cop ccomp aBSENT auxpass ccomp aBSENT det prep_around aBSENT det prep_of aBSENT det nn prep_of aBSENT det amod prep_during aBSENT num prep_in aBSENT amod nn appos nsubjpass auxpass neg rcmod aux aux auxpass ccomp aBSENT prep_in aBSENT det amod prep_before aBSENT dep aBSENT prep_with partmod aBSENT amod prep_to num dep aBSENT aBSENT aBSENT mark det poss aBSENT amod amod nsubj aux aux ccomp aBSENT amod amod prep_as aBSENT 
+det nsubjpass aBSENT prep_of partmod aBSENT prep_as auxpass rOOT xcomp det dobj aBSENT dep aBSENT aBSENT 
+det nsubj cop det rOOT aBSENT prep_of aBSENT prep_of aBSENT conj_or pobj aBSENT 
+advmod nn nsubjpass auxpass neg advmod rOOT aBSENT 
+nn nsubj rOOT det dobj aBSENT amod prep_between aBSENT 
+prep aBSENT nsubj aux rOOT advmod aBSENT det amod prep_as aBSENT prep pcomp det amod pobj aBSENT nsubjpass auxpass rcmod aBSENT prep_on num aBSENT 
+expl rOOT det amod nn nn nsubj aBSENT amod prep_of partmod aBSENT det nn prep_in aBSENT det nn prep_of aBSENT 
+det nsubj cop det amod rOOT aBSENT conj_and nsubj rcmod aBSENT det prep_from aBSENT det amod prep_of aBSENT aBSENT number num prep_about aBSENT num dep dep aBSENT aBSENT aBSENT det prep_to aBSENT det amod prep_of aBSENT aBSENT number prep_about nn dep num aBSENT 
+det dep advmod aBSENT nsubj amod nn nsubj aBSENT cop det rOOT partmod aBSENT det amod prep_for nsubj rcmod aBSENT det prep_after aBSENT det amod nn prep_of aBSENT aBSENT det prep_before aBSENT 
+det nsubjpass auxpass rOOT aux xcomp advmod aBSENT det prep_to aBSENT conj_and amod dobj aBSENT det amod prep_with aBSENT 
+det nsubjpass auxpass rOOT aBSENT det nn nn nn nn nn agent aBSENT 
+amod nsubjpass auxpass rOOT aBSENT prep aBSENT amod nsubjpass auxpass rOOT aBSENT prep aBSENT rOOT aBSENT aBSENT nn amod prep_of partmod aBSENT nn aBSENT appos aBSENT prep_in aBSENT quantmod prep_in aBSENT 
+expl rOOT acomp nsubj nsubj rcmod det dobj aBSENT det nn nn prep_of aux ccomp advmod aBSENT det prep_through aBSENT poss prep_of aBSENT xcomp amod dobj aBSENT 
+nsubj aBSENT advmod aBSENT det nsubj rOOT det amod dobj aBSENT amod amod amod prep_in aBSENT aBSENT aBSENT aBSENT aBSENT det nn prep_in aBSENT det amod prep_of aBSENT 
+amod nsubj aBSENT appos aBSENT cop det amod rOOT nsubj rcmod det amod dobj partmod aBSENT det prep_in aBSENT prep_in aBSENT det amod nn prep_of aBSENT det prep_of aBSENT 
+det nsubj cop det amod nn nn rOOT aBSENT det nn prep_of aBSENT 
+rOOT aBSENT dep aBSENT rOOT aBSENT dep aBSENT rOOT num amod nn dep aBSENT prep_since aBSENT 
+det nsubj cop det rOOT aBSENT det amod prep_around aBSENT prep_in nsubjpass auxpass rcmod aBSENT rcmod aBSENT poss amod agent aBSENT 
+nsubj aBSENT conj_and rOOT det dobj aBSENT prepc_as aBSENT det prep_to aBSENT 
+aBSENT amod prep_in aBSENT conj_and aBSENT det nsubj cop det rOOT det dobj aBSENT dep dep dep aBSENT det nsubj aBSENT prep_of det amod dep aBSENT dep aux rcmod aBSENT advmod aBSENT prep_in aBSENT det nn prep_to aBSENT 
+det nsubj aBSENT aBSENT dep aBSENT cop det rOOT nsubj rcmod aBSENT amod aBSENT prep_on aBSENT prep_on aBSENT aBSENT prep_on prep_as aBSENT 
+nsubj rOOT det dobj aBSENT det nn prep_of nsubj aux rcmod prep pcomp det amod pobj aBSENT 
+det nn nsubj aBSENT prep_of rOOT det dobj aBSENT dobj aBSENT det prep_with partmod dobj aux cop det xcomp aBSENT det nn aBSENT conj_and prep_through aBSENT 
+amod nn nsubjpass aBSENT nn appos aBSENT auxpass rOOT aBSENT prep_in aux xcomp dobj aBSENT aBSENT poss nsubj cop conj_but mark ccomp aBSENT 
+advmod amod nn nsubj rOOT poss nsubj xcomp advmod aBSENT aux conj_and prt aBSENT prep_through aBSENT prep_through aBSENT 
+advmod det amod nsubj rOOT det dobj mark nsubj cop ccomp aux infmod aBSENT prep_to aBSENT det prep_to nsubj rcmod advmod mark nsubj advcl mark det nsubj cop ccomp aBSENT 
+nn nsubj ccomp num dobj aBSENT det amod nn prep_to aBSENT nsubj cop aBSENT aBSENT prepc_as_of pobj num aBSENT nn rOOT aBSENT nn appos aBSENT aBSENT nn dep aBSENT appos aBSENT aBSENT nn dep aBSENT appos aBSENT aBSENT 
+det nn nsubjpass aux auxpass rOOT aBSENT det prep_as aBSENT aBSENT aBSENT amod prep_such_as aBSENT nn prep_such_as aBSENT nn prep_in aBSENT 
+dep dep rOOT nsubj aBSENT det prep_of nsubj rcmod amod dobj aBSENT nn nn nn dobj aBSENT 
+aBSENT prep_on num aBSENT num nsubj rOOT det nn dobj aBSENT aBSENT nn nn ccomp num aBSENT aBSENT aBSENT prep_with aBSENT det prep_in dep aBSENT det nn prep_of aBSENT prep_of aBSENT aBSENT prep_in aBSENT aBSENT prep_in aBSENT dep nn aBSENT appos aBSENT appos nn aBSENT appos aBSENT appos aBSENT pobj aBSENT aBSENT nn pobj aBSENT 
+nsubj cop advmod det amod rOOT aBSENT prep_of aBSENT prep_in det nsubj advmod rcmod dobj aBSENT dep aBSENT det amod prep_being aBSENT aBSENT amod prep_for aBSENT aBSENT aBSENT 
+aBSENT det nn aBSENT conj_and prep_unlike aBSENT det nsubj aBSENT prep_of advmod rOOT advmod aBSENT advmod advmod ccomp amod dobj aBSENT 
+nsubjpass partmod dobj auxpass rOOT aBSENT conj_and aBSENT agent partmod nn nn dobj aBSENT auxpass conj_and aBSENT amod nn nn agent aBSENT nn agent aBSENT 
+nsubj cop det amod rOOT aBSENT nn prep_of aBSENT prep pcomp det amod amod pobj aBSENT nn aBSENT nn prep_of aBSENT aBSENT prep_near aBSENT 
+nsubjpass auxpass rOOT aux cop det amod xcomp aBSENT aBSENT det prep_due_to aBSENT prep_in aBSENT nn prep_between aBSENT nn nn prep_between aBSENT nn prep_in aBSENT 
+nsubj rOOT aBSENT det prep_to aBSENT amod prep_in aBSENT dep aBSENT prep_by aBSENT det prep_with aBSENT 
+det nsubj aBSENT conj_or cop det nn rOOT partmod aux xcomp dobj aBSENT dobj advmod aBSENT aBSENT num prep_from aBSENT prep_to aBSENT 
+dep rOOT aBSENT dep num aBSENT aBSENT dep conj_and aBSENT dep num aBSENT aBSENT det conj_and dep dep aBSENT dep num aBSENT aBSENT dep dep dep aBSENT dep num aBSENT aBSENT dep appos aBSENT appos num aBSENT aBSENT dep appos aBSENT dep num aBSENT aBSENT amod nn dep dep dep dep aBSENT appos aBSENT aBSENT nn nn appos dep dep aBSENT dep dep tmod aBSENT aBSENT dep punct dep dep aBSENT det nn dep aBSENT appos aBSENT aBSENT appos dep dep aBSENT dep num aBSENT aBSENT aBSENT conj_and aBSENT nn prep_of nn nn nn dep 
+nsubj cop det amod rOOT aBSENT det nn nn prep_of aBSENT 
+det nsubj cop det amod rOOT aBSENT conj_and aBSENT det appos aBSENT prep_of aBSENT det amod prep_of aBSENT aBSENT conj_and det dobj aBSENT number number dep number number num prep_between advmod rcmod num aBSENT 
+det nn aBSENT conj_or nsubj aBSENT dep aBSENT det prep_by cc aBSENT aBSENT conj_or cop det amod rOOT aBSENT conj_or aBSENT det prep_of nsubjpass auxpass rcmod aBSENT det amod aBSENT dep agent aBSENT amod amod agent aux dep dep det pobj aBSENT poss prep_of cc punct aBSENT dep aBSENT prep_to aBSENT aBSENT aux dep poss dobj aBSENT dobj aBSENT prep_from aBSENT amod prep_of aBSENT 
+mark nsubj advcl det dobj aBSENT amod prep_of aBSENT amod prep_for aBSENT amod nn nsubj aux neg rOOT nn dobj aBSENT det advmod amod prep_due aBSENT det amod prep_of aBSENT 
+aBSENT prep_in aBSENT det nsubjpass aBSENT det prep_of aBSENT advmod dep nsubj dep aux cop det xcomp aBSENT prepc_according_to det pobj aBSENT det prep_of auxpass partmod aBSENT auxpass advmod rOOT poss dobj aBSENT advmod aBSENT aBSENT det prep_in aBSENT nn prep_of det nsubjpass auxpass advmod advmod rcmod aux xcomp det nn dobj aBSENT det appos aBSENT prep_for aBSENT 
+aBSENT prep_in aBSENT det nsubj cop det rOOT aBSENT det advmod amod prep_of aBSENT prepc_by det dobj aBSENT prep_of advmod aBSENT 
+det nsubj rOOT det amod nn nn dobj aBSENT 
+det nn nsubj aBSENT nsubj dep dobj aBSENT det prep_with aBSENT cop det rOOT aBSENT det prep_of aBSENT amod prep_in aBSENT 
+det nsubj aBSENT dep aBSENT cop det rOOT aBSENT prepc_of det dobj aBSENT amod appos aBSENT aBSENT det prep_to aBSENT prep_of aBSENT 
+det nsubj aBSENT punct dep punct aBSENT cop det rOOT aBSENT number prep_from aBSENT num nn prep_to partmod det poss aBSENT amod dobj aBSENT amod prep_of aBSENT 
+nsubjpass auxpass rOOT aBSENT prep_as aBSENT det poss aBSENT prep_in aBSENT prep_of aBSENT prep_in aBSENT aBSENT dep appos aBSENT appos aBSENT aBSENT det prep_in aBSENT prep_of aBSENT appos aBSENT aBSENT aBSENT prep_in aBSENT conj_and aBSENT nn prep_in aBSENT 
+amod nsubj aBSENT aBSENT appos aBSENT cop nn dep rcmod aux xcomp advmod punct cc rOOT det nn dobj aBSENT 
+det amod nsubj aBSENT det nn aBSENT prep_of aBSENT aux cop det amod aBSENT rcmod aBSENT aBSENT dep aBSENT aBSENT aBSENT det prep_as rOOT det dobj amod aBSENT prep_in aBSENT aBSENT aBSENT prep_with aBSENT auxpass partmod aux xcomp aBSENT det prep_to aBSENT nn prep_of aBSENT 
+det nsubj cop det amod rOOT partmod aBSENT prep_in num aBSENT prep_in aBSENT det prep_of poss aBSENT dobj aBSENT prep_in aBSENT nn agent aBSENT nn nn appos aBSENT aBSENT 
+aBSENT amod prep_in aBSENT dep aBSENT prep dep punct aBSENT aBSENT dep aBSENT aBSENT aBSENT conj_and aBSENT det amod nn prep_of aBSENT conj_and aBSENT prep_in aBSENT cop det amod nn rOOT aBSENT partmod aBSENT det nn agent aBSENT nsubj rcmod det amod dobj aBSENT prep_of aBSENT 
+advmod advcl aBSENT det prep_in nsubjpass auxpass rOOT aBSENT det prep_throughout aBSENT 
+nsubj cop rOOT aux xcomp dobj aBSENT prep_of aBSENT det prep_of advmod partmod dobj aBSENT 
+nsubj cop det amod amod rOOT aux infmod aBSENT aBSENT det nn amod prep_out_of aBSENT 
+dep aBSENT rOOT nsubj aBSENT dep aBSENT dep aBSENT cop det rcmod aBSENT det nn prep_in aBSENT prep_of partmod num dobj aBSENT number amod aBSENT aBSENT aBSENT prep_in aBSENT dep num dep number dep aBSENT aBSENT 
+det nsubj cop det rOOT aBSENT amod prep_of aBSENT 
+advmod nsubjpass auxpass advcl aBSENT poss nsubj cop rOOT aBSENT poss amod prep_of aBSENT 
+nsubj rOOT mark det amod nsubjpass auxpass ccomp aBSENT predet det amod prep_with aBSENT det prep_of aBSENT ccomp det dobj aBSENT prep_of aBSENT 
+nsubjpass auxpass advmod rOOT aBSENT prep_into aBSENT aBSENT amod aBSENT dep aBSENT prep_with aBSENT nsubj cop det amod rcmod aBSENT aBSENT prep_into aBSENT aBSENT amod aBSENT dep nsubj aux rcmod det dobj aBSENT det advmod amod aBSENT amod aBSENT amod amod prep_with aBSENT aBSENT 

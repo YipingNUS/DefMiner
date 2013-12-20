@@ -1,0 +1,8 @@
+Run instruction 1 .
+Add execution right to the external jars chmod + x lib \/ \* 2 .
+run the main program .
+It takes one argument which is the input file java - Xmx4g - cp bin : lib \/ \* main.IntegratedParser test.txt The program will create a folder with the same name and contains all the outcome of all the preprocessing .
+In all the files , we output one sentence per line .
+test \/ | -- test.word orignial word | -- test.pos pos tags for each word | -- test.ne named entity tag for each word | -- test.dep dependencies for each sentence , one dependency per line .
+Sentences are separated by empty line | -- test.chunk the shallow parsing tag for each word | -- test.seq the collapsed shallow parsing sequence for each sentence .
+| -- test.parent the parent in the dependency relation one line per sentence , each token is the parent of a word | -- test.parpos the pos tag of the parent word | -- test.tag the golden standard tag -LRB- token level , \* for learning model only -RRB-

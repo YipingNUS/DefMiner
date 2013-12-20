@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#Args:
+#  $1 input file path
+
+filepath=$1
+filepath=${filepath%.*}
+echo filepath
+suffix="_defminer"
+filepath=$filepath$suffix
+filename=$(basename "$filepath")
+del="/"
+inputpath=$filepath$del$filename
+in_suffix=".data"
+out_suffix=".out"
+annotated_suffix=".annotated"
+in_file_path=$inputpath$in_suffix
+out_file_path=$inputpath$out_suffix
+annotated_path=$inputpath$annotated_suffix
+
+echo Doing Preprocessing ... This may take several minutes.
+java -Xmx4g -cp preprocess/integratedParser/bin:preprocess/integratedParser/lib/* main.IntegratedParser $1
+echo Extracting features ... 
+python predict.py -i $inputpath
+echo Performing classification ...
+CRF++-0.58/crf_test -m models/model $in_file_path > $out_file_path
+echo result stored in $annotated_path
+python annotate_clean.py $inputpath

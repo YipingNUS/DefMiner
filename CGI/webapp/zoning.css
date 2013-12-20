@@ -1,0 +1,64 @@
+BODY {
+  margin: 1em 1.5em;
+  font-family: arial, lucinda, helvetica;
+  color: black;
+  background: white;
+}
+ 
+P.search { text-align: right; font-size: .8 em; }
+
+P.PI { text-align: center; font-size: .6 em; }
+SPAN.hidden { font-size: .6 em; color: white }
+SPAN.red { font-size: .6 em; color: red; font-weight: bold; }
+SPAN.small { font-size: .6 em; }
+
+SPAN.wrong { color: darkred; font-style:italic; }
+SPAN.TERM { background: yellow; }
+SPAN.DEF { background: cyan; }
+ 
+A:link { color: navy }       /* unvisited link */
+A:visited { color: gray }   /* visited links */
+A:active { color: cyan }    /* active links */
+ 
+TH, TD {
+  font-family: arial, lucinda, helvetica;
+}
+ 
+B, CODE {
+  font-family: arial, lucinda, helvetica;
+  font-weight: bold;
+  color: blue
+}
+ 
+H1 {
+  text-align: center;
+  font-family: arial, lucinda, helvetica;
+  font-weight: normal; 
+}
+ 
+H2, H3 {
+  text-align: left;
+  font-family: arial, lucinda, helvetica;
+  font-weight: normal; 
+  background: #FFFF66;
+}
+ 
+H4 {
+  color: #000000;
+}
+ 
+.text {
+   font-family: arial, lucinda, helvetica;
+}
+
+DIV.hidden {
+   border-style: solid;
+   border: 2px;
+   margin: 0px 20px 0px 20px;
+   background-color: #FFF0F0; 
+}
+
+#leftcontent { position: absolute; background: none repeat scroll 0% 0% lightblue; left: 8px; width: auto; border: 1px solid rgb(0, 0, 0); }
+#centercontent { margin-left: 20%; padding-left: 15px; width: 85%; solid rgb(0, 0, 0);  }
+html > body #centercontent { margin-left: auto; padding: 10px; }
+p.small, span.small { color: black; font-size: 80%; } 

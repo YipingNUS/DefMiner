@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.io.IOUtils"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.ie.machinereading.structure.MachineReadingAnnotations.DependencyAnnotation"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.dcoref.CoNLL2011DocumentReader.NamedEntityAnnotation"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.ling.IndexedWord"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.trees.TypedDependency"/>
+<fullyQualifiedTypeName name="java.text.Normalizer"/>
+</qualifiedTypeNameHistroy>
