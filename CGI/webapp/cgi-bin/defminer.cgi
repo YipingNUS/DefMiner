@@ -46,7 +46,7 @@ my $debug = 0;
 my @zones = ("TERM","DEF","O");
 
 my $loadThreshold = 0.5;
-my $loadKey = "wing";
+my $loadKey = "secrete";
 ### END user customizable section
 
 $| = 1;								    # flush output
