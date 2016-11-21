@@ -10,7 +10,11 @@ Author: Yiping Jin
 The system is based on Yiping's thesis and EMNLP paper. Please
 refer to:
 
-http://wing.comp.nus.edu.sg/downloads/term_definition_mining/
+http://wing.comp.nus.edu.sg/downloads/term_definition_mining/ (currently down due to server problem)
+
+If you're using the code or the corpus for your research work, please cite the following paper:
+
+Jin, Yiping, et al. "Mining scientific terms and their definitions: A study of the ACL anthology." Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing. 2013.
 
 DOCUMENTATION
 
@@ -119,6 +123,11 @@ run command:
 then use the browser to open url:
 
 	localhost:8080
+	
+---------------------------------
+Corpus
+---------------------------------
+W00_dataset.zip contains the W00 corpus described in the paper.
 
 ---------------------------------
 CHANGES
